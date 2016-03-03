@@ -112,7 +112,10 @@ PRODUCT_PACKAGES := \
     wpa_supplicant \
     wpa_supplicant.conf
 
-# Graphics
+# Doze mode
+PRODUCT_PACKAGES += \
+    DeviceSettings
+
 PRODUCT_PACKAGES += \
     copybit.msm8974 \
     gralloc.msm8974 \
